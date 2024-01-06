@@ -14,3 +14,7 @@ nextBtn.addEventListener("click", ()=>{
 })
 
 backBtn.addEventListener("click", () => form.classList.remove('secActive'))
+
+$(document).ready(function(){
+    $('#example').DataTable();
+})
