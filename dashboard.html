@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <ul class="menu">
+                <li>
+                    <a href="">
+                        <i class="fas fa-tachometer-alt">
+                            <span>Dashboard</span>
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-user">
+                            <span>Profile</span>
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-bar-chart">
+                            <span>Statistics</span>
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-briefcase">
+                            <span>Careers</span>
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-question-circle">
+                            <span>FAQ</span>
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-star">
+                            <span>Testimonials</span>
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-cog">
+                            <span>Settings</span>
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="logout">
+                        <i class="fas fa-sign-out-alt">
+                            <span>Sign Out</span>
+                        </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="hader--title">
+                <span>Primary</span>
+                <h2>Dashboard</h2>
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" placeholder="Search"/>
+                </div>
+                <img src="lopez4.jpg" alt="">
+            </div>
+        </div>
+        <div class="card--container">
+            <h3 class="main--title">Today's data</h3>
+            <div class="card--wrapper">
+
+                <div class="payment--card light-red">
+                    <div class="card--hearder">
+                        <div class="amount">
+                            <span class="title">Pament Amount</span>
+                            <span class="amount--value">$500.00</span>
+                        </div>
+                        <i class="fas fa-dollar-sign icon dark-red"></i>
+                    </div>
+                    <span class="card--detail">
+                    **** **** **** 3456
+                    </span>
+                </div>
+
+                <div class="payment--card light-purple">
+                    <div class="card--hearder">
+                        <div class="amount">
+                            <span class="title">Pament Order</span>
+                            <span class="amount--value">$500.00</span>
+                        </div>
+                        <i class="fas fa-list icon dark-purple"></i>
+                    </div>
+                    <span class="card--detail">
+                    **** **** **** 3456
+                    </span>
+                </div>
+
+                <div class="payment--card light-green">
+                    <div class="card--hearder">
+                        <div class="amount">
+                            <span class="title">Pament Amount</span>
+                            <span class="amount--value">$500.00</span>
+                        </div>
+                        <i class="fas fa-users icon dark-green"></i>
+                    </div>
+                    <span class="card--detail">
+                    **** **** **** 3456
+                    </span>
+                </div>
+
+                <div class="payment--card light-blue">
+                    <div class="card--hearder">
+                        <div class="amount">
+                            <span class="title">Pament Amount</span>
+                            <span class="amount--value">$500.00</span>
+                        </div>
+                        <i class="fas fa-solid fa-check icon dark-blue"></i>
+                    </div>
+                    <span class="card--detail">
+                    **** **** **** 3456
+                    </span>
+                </div>
+
+            </div>
+        </div>
+        <div class="tabular--wrapper">
+            <h3 class="main-title">Finance Data</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Transaction type</th>
+                            <th>Description</th>
+                            <th>Amount</th>
+                            <th>Category</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024-01-11</td>
+                            <td>Government payment</td>
+                            <td>Land Retal Annual Fee</td>
+                            <td>35,000</td>
+                            <td>CASH</td>
+                            <td>PAID</td>
+                            <td><button>edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>2024-01-10</td>
+                            <td>Government payment</td>
+                            <td>Residential Annual Fee</td>
+                            <td>55,000</td>
+                            <td>CASH</td>
+                            <td>PENDING</td>
+                            <td><button>edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>2024-01-09</td>
+                            <td>Government payment</td>
+                            <td>Energy monthly Fee</td>
+                            <td>65,000</td>
+                            <td>CASH</td>
+                            <td>OVERPAID</td>
+                            <td><button>edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>2024-01-08</td>
+                            <td>Government payment</td>
+                            <td>Land Retal Annual Fee</td>
+                            <td>45,000</td>
+                            <td>CASH</td>
+                            <td>PAID</td>
+                            <td><button>edit</button></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="7">Total: $4,000</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
